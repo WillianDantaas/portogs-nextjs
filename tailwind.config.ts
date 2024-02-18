@@ -20,6 +20,7 @@ const config: Config = {
         indigo5: '#5C7CFA',
         violet9: '#5F3DC4',
         violet5: '#845EF7',
+        // gradient1 = violet5 > indigo9
         
         // gray6: '#868E96',
       },

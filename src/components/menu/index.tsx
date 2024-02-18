@@ -21,8 +21,8 @@ export default function NavBar() {
                         />
                     </div>
                     <nav>
-                        <div>
-                            <List size={32} weight='fill' className='cursor-pointer' />
+                        <div  >
+                            <List size={32} weight='fill' className='cursor-pointer text-indigo9' />
                         </div>
                         <div>
                             <ul>

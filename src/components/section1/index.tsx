@@ -16,7 +16,7 @@ export default function Section01() {
 
                     {/* Mobile 320px */}
                     <div className="sm:hidden mt-10 w-72">
-                        <h1 className=" text-indigo9 font-bold text-xl text-center mx-auto">
+                        <h1 className="text-indigo9 font-bold text-xl text-center mx-auto">
                             Procurando alguém para desenvolver sua aplicação WEB?
                         </h1>
                         <p className="sm:hidden text-gray-600 font-medium w-72 text-center mt-6 mx-auto">Desenvolvemos e projetamos 100% da sua aplicação WEB, desde o design até a hospedagem de seu projeto.</p>
