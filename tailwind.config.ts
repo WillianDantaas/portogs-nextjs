@@ -21,6 +21,7 @@ const config: Config = {
         violet9: '#5F3DC4',
         violet5: '#845EF7',
         // gradient1 = violet5 > indigo9
+        // grandient2 = violet9 > indigo5
         
         // gray6: '#868E96',
       },
