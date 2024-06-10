@@ -2,19 +2,21 @@
 
 
 
-import { SeparationCircle, QualitiesCircle } from "../IconCircles"
+import { SeparationCircle, QualitiesCircle } from "../Icons"
 import { H3, P } from "../textstyle"
+
+import { Rocket, PenNibStraight, DeviceMobile, Binoculars, Headset, Intersect } from '@phosphor-icons/react'
 
 export default function Qualities() {
 
     return (
         <>
 
-            <div className="w-[272px] md:w-[672px] lg:w-[1200px] container mx-auto mr-auto px-4 md:px-8 lg:px-18 py-10 bg-white -mt-20 rounded-xl space-y-8 shadow-2xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div className="min-w-[272px] md:min-w-[672px] lg:max-w-[1200px] mx-auto mr-auto px-4 md:px-8 lg:px-18 py-10 bg-white rounded-xl space-y-8 shadow-2xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 
                 <div className="flex flex-col items-center md:items-start text-center md:text-left md:w-60">
 
-                    <QualitiesCircle icon='a' />
+                    <QualitiesCircle icon={<Rocket size={25} weight="bold" />} />
 
                     <div className="mt-6 flex flex-col space-y-3">
                         <H3 text='Qualidade na aplicação' />
@@ -25,7 +27,7 @@ export default function Qualities() {
 
                 <div className="flex flex-col items-center md:items-start text-center md:text-left md:w-60">
 
-                    <QualitiesCircle icon='a' />
+                    <QualitiesCircle icon={<PenNibStraight size={25} weight="bold" />} />
 
                     <div className="mt-6 flex flex-col space-y-3">
                         <H3 text='UI/UX Design' />
@@ -36,7 +38,7 @@ export default function Qualities() {
 
                 <div className="flex flex-col items-center md:items-start text-center md:text-left md:w-60">
 
-                    <QualitiesCircle icon='a' />
+                    <QualitiesCircle icon={<DeviceMobile size={25} weight="bold" />} />
 
                     <div className="mt-6 flex flex-col space-y-3">
                         <H3 text='Responsividade' />
@@ -47,7 +49,7 @@ export default function Qualities() {
 
                 <div className="flex flex-col items-center md:items-start text-center md:text-left md:w-60">
 
-                    <QualitiesCircle icon='a' />
+                    <QualitiesCircle icon={<Binoculars size={25} weight="bold" />} />
 
                     <div className="mt-6 flex flex-col space-y-3">
                         <H3 text='SEO' />
@@ -58,7 +60,7 @@ export default function Qualities() {
 
                 <div className="flex flex-col items-center md:items-start text-center md:text-left md:w-60">
 
-                    <QualitiesCircle icon='a' />
+                    <QualitiesCircle icon={<Headset size={25} weight="bold" />} />
 
                     <div className="mt-6 flex flex-col space-y-3">
                         <H3 text='Suporte contínuo' />
@@ -69,7 +71,9 @@ export default function Qualities() {
 
                 <div className="flex flex-col items-center md:items-start text-center md:text-left md:w-60">
 
-                    <QualitiesCircle icon='a' />
+                    <QualitiesCircle icon={<Intersect size={25} weight="bold" />
+
+                    } />
 
                     <div className="mt-6 flex flex-col space-y-3">
                         <H3 text='Integrações com API' />

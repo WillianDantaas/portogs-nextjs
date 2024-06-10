@@ -21,7 +21,7 @@ export default function Section01() {
                         <p className="text-gray-600 font-medium text-center text-base mt-6 mx-auto max-w-64 md:max-w-full md:text-2xl lg:text-start">Desenvolvemos e projetamos 100% da sua aplicação WEB, desde o design até a hospedagem de seu projeto.</p>
                     </div>
 
-                    <div className="w-64 lg:w-72 h-14 mx-auto lg:mx-0 mt-6 md:mt-12">
+                    <div className="lg:mx-0 mt-6 md:mt-12">
                         <Button text="Conhecer Ofertas"></Button>
                     </div>
                 </div>
