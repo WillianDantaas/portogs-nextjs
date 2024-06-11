@@ -21,7 +21,9 @@ export default function Qualities() {
                     <div className="mt-6 flex flex-col space-y-3">
                         <H3 text='Qualidade na aplicação' />
 
-                        <P text='Do ínicio a entrega do seu projeto, nós utilizamos este pilar com o principal, te entregamos o melhor.' />
+                        <div className="text-gray-600">
+                            <P text='Do ínicio a entrega do seu projeto, nós utilizamos este pilar com o principal, te entregamos o melhor.' />
+                        </div>
                     </div>
                 </div>
 
@@ -32,7 +34,9 @@ export default function Qualities() {
                     <div className="mt-6 flex flex-col space-y-3">
                         <H3 text='UI/UX Design' />
 
-                        <P text='Desenhamos e programamos interfaces bonitas, robustas e amigáveis, focado em qualidade. ' />
+                        <div className="text-gray-600">
+                            <P text='Desenhamos e programamos interfaces bonitas, robustas e amigáveis, focado em qualidade.' />
+                        </div>
                     </div>
                 </div>
 
@@ -43,7 +47,9 @@ export default function Qualities() {
                     <div className="mt-6 flex flex-col space-y-3">
                         <H3 text='Responsividade' />
 
-                        <P text='Criamos interfaces responsivas para cada dispositivo, buscando a melhor experiência do úsuario possivel.' />
+                        <div className="text-gray-600">
+                            <P text='Criamos interfaces responsivas para cada dispositivo, buscando a melhor experiência do úsuario possivel.' />
+                        </div>
                     </div>
                 </div>
 
@@ -54,7 +60,9 @@ export default function Qualities() {
                     <div className="mt-6 flex flex-col space-y-3">
                         <H3 text='SEO' />
 
-                        <P text='Otimizamos a sua aplicação para ser amigável aos sistemas de buscas da Web, garantimos qualidade.' />
+                        <div className="text-gray-600">
+                            <P text='Otimizamos a sua aplicação para ser amigável aos sistemas de buscas da Web, garantimos qualidade.' />
+                        </div>
                     </div>
                 </div>
 
@@ -65,7 +73,9 @@ export default function Qualities() {
                     <div className="mt-6 flex flex-col space-y-3">
                         <H3 text='Suporte contínuo' />
 
-                        <P text='Nós oferecemos suporte para todos os nossos clientes, solucionando os problemas e tirando as dúvidas.' />
+                        <div className="text-gray-600">
+                            <P text='Nós oferecemos suporte para todos os nossos clientes, solucionando os problemas e tirando as dúvidas.' />
+                        </div>
                     </div>
                 </div>
 
@@ -78,7 +88,9 @@ export default function Qualities() {
                     <div className="mt-6 flex flex-col space-y-3">
                         <H3 text='Integrações com API' />
 
-                        <P text='Integramos a sua aplicação com as API’s necessárias para o seu projeto alcançar máxima otimização.' />
+                        <div className="text-gray-600">
+                            <P text='Integramos a sua aplicação com as API’s necessárias para o seu projeto alcançar máxima otimização.' />
+                        </div>
                     </div>
                 </div>
 

@@ -1,7 +1,7 @@
 'use client'
 
 import { List } from '@phosphor-icons/react'
-import Button from '../button'
+import {Button, Button2} from '../button'
 
 import Image from 'next/image'
 
@@ -53,11 +53,12 @@ export default function NavBar() {
                         </ul>
 
                     </nav>
+
                     <div className='flex w-80 items-center justify-between'>
-                        <a href="#" className='text-white font-semibold'>Modelos de sites</a>
+                        <a href="#" className='text-indigo9 font-semibold'>Modelos de sites</a>
 
                         <div className='w-40 h-12 flex items-center'>
-                            <Button text={'Orçamento'} />
+                            <Button2 text={'Orçamento'} />
                         </div>
                     </div>
                 </div>

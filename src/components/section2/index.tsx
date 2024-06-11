@@ -5,7 +5,7 @@ import { ArrowDown, ChatsTeardrop, Stack, Atom, RocketLaunch } from '@phosphor-i
 import { H3, PTitle, P1 } from "../textstyle"
 import Qualities from "../qualities"
 import Image from "next/image"
-import Button from "../button"
+import { Button } from "../button"
 
 export default function Section02() {
 

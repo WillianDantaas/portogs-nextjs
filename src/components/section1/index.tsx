@@ -1,7 +1,7 @@
 'use client'
 
 import Image from "next/image"
-import Button from "../button"
+import { Button } from "../button"
 
 import { ArrowCircleDown } from "@phosphor-icons/react"
 
@@ -21,7 +21,7 @@ export default function Section01() {
                         <p className="text-gray-600 font-medium text-center text-base mt-6 mx-auto max-w-64 md:max-w-full md:text-2xl lg:text-start">Desenvolvemos e projetamos 100% da sua aplicação WEB, desde o design até a hospedagem de seu projeto.</p>
                     </div>
 
-                    <div className="lg:mx-0 mt-6 md:mt-12">
+                    <div className="mt-6 md:mt-12 text-center lg:text-start">
                         <Button text="Conhecer Ofertas"></Button>
                     </div>
                 </div>
@@ -39,11 +39,11 @@ export default function Section01() {
 
 
             <div className="container mx-auto">
-                    <a href="#" className="hidden mt-24 lg:flex items-center text-indigo9 cursor-pointer">
-                        <span><ArrowCircleDown size={32} weight="light" /></span>
-                        <p className="text-lg text-indigo9 font-medium mx-3">Continue explorando</p>
-                    </a>
-                </div>
+                <a href="#" className="hidden mt-24 lg:flex items-center text-indigo9 cursor-pointer">
+                    <span><ArrowCircleDown size={32} weight="light" /></span>
+                    <p className="text-lg text-indigo9 font-medium mx-3">Continue explorando</p>
+                </a>
+            </div>
 
         </>
     )
