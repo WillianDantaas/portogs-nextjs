@@ -21,7 +21,7 @@ const config: Config = {
         // gradient1 = violet5 > indigo9
         // grandient2 = violet9 > indigo5
         
-        // gray6: '#868E96',
+        gray6: '#868E96',
       },
       container: {
         padding: {

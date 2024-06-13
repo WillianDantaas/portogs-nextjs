@@ -22,7 +22,7 @@ export default function Section01() {
                     </div>
 
                     <div className="mt-6 md:mt-12 text-center lg:text-start">
-                        <Button text="Conhecer Ofertas"></Button>
+                        <Button text="Conhecer Ofertas" link={'#'}></Button>
                     </div>
                 </div>
 
@@ -39,7 +39,7 @@ export default function Section01() {
 
 
             <div className="container mx-auto">
-                <a href="#" className="hidden mt-24 lg:flex items-center text-indigo9 cursor-pointer">
+                <a href="#diferencial" className="hidden mt-24 lg:flex items-center text-indigo9 cursor-pointer">
                     <span><ArrowCircleDown size={32} weight="light" /></span>
                     <p className="text-lg text-indigo9 font-medium mx-3">Continue explorando</p>
                 </a>

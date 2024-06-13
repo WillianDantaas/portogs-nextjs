@@ -12,13 +12,13 @@ export default function Section02() {
 
     return (
         <>
-            <section>
+            <section id="diferencial">
                 <div className="h-52 bg-gradient-to-r from-violet-900 to-indigo-500 mt-12">
-                    <div className="flex justify-center lg:hidden">
+                    {/* <div className="flex justify-center lg:hidden">
                         <span className="-mt-4">
                             <SeparationCircle icon={<ArrowDown size={16} weight="bold" />} />
                         </span>
-                    </div>
+                    </div> */}
                     <div className="container mx-auto my-auto">
                         <h5 className="text-white font-bold text-xl md:text-2xl lg:text-3xl pt-10 text-center">Nós te oferecemos o melhor do mercado</h5>
                     </div>
@@ -91,8 +91,8 @@ export default function Section02() {
                     </div>
                 </div>
 
-                <div className="container mx-auto text-center lg:mx-0 mt-6 md:mt-12">
-                    <Button text="Orçamento rápido"></Button>
+                <div className="container mx-auto text-center mt-6 md:mt-12">
+                    <Button text="Orçamento rápido" link={'#'}></Button>
                 </div>
             </section>
 

@@ -3,23 +3,35 @@
 import Image from "next/image"
 
 
-interface SeparationCircle {
+interface SeparationCircleProps {
     children?: React.ReactNode,
-    icon: any
+    icon: any,
+    link?: any,
+    target?: string
 }
 
 
-export function SeparationCircle({ icon = '' }: SeparationCircle) {
+export function SeparationCircle({ icon = '', link = '', target = '' }: SeparationCircleProps) {
 
     return (
 
         <button className="rounded-full bg-gradient-to-r from-violet9 to-indigo5 w-8 h-8 text-white flex justify-center items-center">
-            {icon}
+            <a href={link} target={target}>{icon}</a>
         </button>
     )
 }
 
-export function QualitiesCircle({ icon = '' }: SeparationCircle) {
+export function Rockets({ icon = ''}: SeparationCircleProps) {
+
+    return (
+
+        <span className="rounded-full bg-gradient-to-r from-violet9 to-indigo5 w-8 h-8 text-white flex justify-center items-center">
+            {icon}
+        </span>
+    )
+}
+
+export function QualitiesCircle({ icon = '' }: SeparationCircleProps) {
 
     return (
 
@@ -29,7 +41,7 @@ export function QualitiesCircle({ icon = '' }: SeparationCircle) {
     )
 }
 
-export function RectangleIcon({ icon = '' }: SeparationCircle) {
+export function RectangleIcon({ icon = '' }: SeparationCircleProps) {
 
     return (
 

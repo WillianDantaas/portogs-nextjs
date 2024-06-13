@@ -9,12 +9,12 @@ export default function Section03() {
 
 
     return (
-        <section className="bg-gradient-to-r from-violet-900 to-indigo-500 h-[537px] md:h-[424px] mt-12 md:mt-20 lg:mt-24">
+        <section id="qualidade-da-empresa" className="bg-gradient-to-r from-violet-900 to-indigo-500 h-[537px] md:h-[424px] mt-12 md:mt-20 lg:mt-24">
 
             <div className="container mx-auto">
                 <div className="flex justify-center">
                     <span className="-mt-4">
-                        <SeparationCircle icon={<ArrowDown size={16} weight="bold" />} />
+                        <SeparationCircle link={'#qualidade-da-empresa'} icon={<ArrowDown size={16} weight="bold" />} />
                     </span>
                 </div>
 
