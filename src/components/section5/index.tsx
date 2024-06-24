@@ -9,7 +9,7 @@ export default function Section05() {
 
     return (
 
-        <section className="bg-gradient-to-r from-violet-900 to-indigo-500 h-[507px] md:h-[256px]">
+        <section className="bg-gradient-to-r from-violet9 to-indigo5 h-[507px] md:h-[256px]">
 
             <div className="container mx-auto">
                 <div className="flex flex-col">
@@ -48,9 +48,9 @@ export default function Section05() {
 
                     <div className="flex flex-col justify-center text-center lg:text-end mx-auto lg:mx-0 max-w-[363px]">
 
-                        <h2 className="text-gray-100 font-bold text-xl md:text-3xl">
+                        <h2 className="text-gray0 font-bold text-xl md:text-3xl">
                             Tornamos sua aplicação eficiente e eficaz</h2>
-                        <p className="text-gray-100 font-sm md:text-base lg:text-end mt-8">Integramos as necessidades de sua aplicação, com propósito de fazê-la eficiente e eficaz</p>
+                        <p className="text-gray1 font-sm md:text-base lg:text-start mt-8">Integramos as necessidades de sua aplicação, com propósito de fazê-la eficiente e eficaz</p>
                     </div>
                 </div>
             </div>

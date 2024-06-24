@@ -45,7 +45,7 @@ export function RectangleIcon({ icon = '' }: SeparationCircleProps) {
 
     return (
 
-        <div className="rounded-lg w-14 h-11 bg-gradient-to-r from-violet-900 to-indigo-500 flex justify-center items-center text-white">
+        <div className="rounded-lg w-14 h-11 bg-gradient-to-r from-violet5 to-indigo9 flex justify-center items-center text-white">
             {icon}
         </div>
     )

@@ -13,7 +13,7 @@ export default function Section02() {
     return (
         <>
             <section id="diferencial">
-                <div className="h-52 bg-gradient-to-r from-violet-900 to-indigo-500 mt-12">
+                <div className="h-52 bg-gradient-to-r from-violet9 to-indigo5 mt-12">
                     {/* <div className="flex justify-center lg:hidden">
                         <span className="-mt-4">
                             <SeparationCircle icon={<ArrowDown size={16} weight="bold" />} />
@@ -76,7 +76,7 @@ export default function Section02() {
                         </div>
                     </div>
 
-                    <div className="text-indigo-600 mt-8 lg:mt-16">
+                    <div className="text-indigo6 mt-8 lg:mt-16">
 
                         <h3 className="max-w-[416px] mx-auto text-xs sm:text-base text-center">
                             Em sua jornada de desenvolvimento conosco, terá total autonômia para ver e acompanhar o seu projeto.

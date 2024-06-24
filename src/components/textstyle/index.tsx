@@ -28,7 +28,7 @@ export function P1( {text = ''}: TextProps) {
 export function PTitle( {text = ''}: TextProps) {
 
     return (
-        <p className="w-full text-indigo-900 text-xs md:text-sm font-bold">
+        <p className="w-full text-indigo9 text-xs md:text-sm font-bold">
             {text}
         </p>
     )
@@ -45,7 +45,7 @@ export function H2( {text= ''}: TextProps) {
 export function H3( {text= ''}: TextProps) {
 
     return (
-        <h3 className="text-indigo-900 font-bold text-lg md:text-2xl">{text}</h3>
+        <h3 className="text-indigo9 font-bold text-lg md:text-2xl">{text}</h3>
 
     )
 }

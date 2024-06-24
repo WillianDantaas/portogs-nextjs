@@ -9,7 +9,7 @@ import { NavFooter } from "../menu"
 export default function Footer() {
 
     return (
-        <footer className="bg-gradient-to-r from-violet-900 to-indigo-500 py-11 px-14 mt-10">
+        <footer className="bg-gradient-to-r from-violet9 to-indigo5 py-11 px-14 mt-10">
             <div className="container mx-auto flex flex-col md:flex-row space-y-8 md:space-y-0 text-center md:text-left md:justify-around">
 
                 <div>
@@ -24,7 +24,7 @@ export default function Footer() {
                     <div className="text-white text-xs mt-6">
                         <p>Siga-nos nas nossas redes sociais</p>
                         <div className="mt-2">
-                            <div className="flex justify-center items-center space-x-2">
+                            <div className="flex justify-center md:justify-start items-center space-x-2">
                                 <Instagram />
                                 <Facebook />
                                 {/* <Whatsapp /> */}

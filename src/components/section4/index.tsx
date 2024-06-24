@@ -56,11 +56,11 @@ export default function Section04() {
                         <H5 text={'Transformamos a sua ideia em aplicações robustas.'}/>
                     </div>
                     
-                    <div className="mt-6 text-center text-gray-600 md:hidden">
+                    <div className="mt-6 text-center text-gray6 md:hidden">
                         <P text='Prezamos pelo bom entendimento das ídeias propostas, para o fluxo do projeto seguir rápido e fácil.'/>
                     </div>
 
-                    <div className="hidden md:block mt-6 text-center lg:text-left text-gray-600">
+                    <div className="hidden md:block mt-6 text-center lg:text-left text-gray6">
                         <P1 text='Prezamos pelo bom entendimento das ídeias propostas, para o fluxo do projeto seguir rápido e fácil.'/>
                     </div>
                 </div>

@@ -9,7 +9,7 @@ export default function Section03() {
 
 
     return (
-        <section id="qualidade-da-empresa" className="bg-gradient-to-r from-violet-900 to-indigo-500 h-[537px] md:h-[424px] mt-12 md:mt-20 lg:mt-24">
+        <section id="qualidade-da-empresa" className="bg-gradient-to-r from-violet9 to-indigo5 h-[537px] md:h-[424px] mt-12 md:mt-20 lg:mt-24">
 
             <div className="container mx-auto">
                 <div className="flex justify-center">
@@ -18,7 +18,7 @@ export default function Section03() {
                     </span>
                 </div>
 
-                <div className="text-center text-white mt-10 md:mt-15">
+                <div className="text-center text-gray0 mt-10 md:mt-15">
                     <H2 text={'Por que contratar a nossa empresa?'} />
                 </div>
 
@@ -32,10 +32,10 @@ export default function Section03() {
 
                 <div className="md:flex md:justify-between">
                     <div className="md:w-[413px]">
-                        <div className="text-white mt-8 md:mt-16 lg:mt-28 text-center lg:text-left">
+                        <div className="text-gray0 mt-8 md:mt-16 lg:mt-28 text-center lg:text-left">
                             <H5 text={'Apresente a sua marca da melhor forma possível.'}/>
                         </div>
-                        <div className="text-gray-100 mt-6 text-center lg:text-left">
+                        <div className="text-gray1 mt-6 text-center lg:text-left">
                             <P text={'Te supreenderemos com o design, usabilidade, qualidade de software e tudo o que tem de melhor.'}/>
                         </div>
                     </div>

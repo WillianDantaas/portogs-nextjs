@@ -12,13 +12,13 @@ export default function Section01() {
             <div className="container mx-auto flex justify-between items-center">
                 <div className="mx-auto">
 
-                    <div className="mt-10 md:w-[592px] lg:w-[592px] lg:h-[389px]">
+                    <div className="mt-[90px] md:w-[592px] lg:w-[652px] lg:h-[389px]">
 
-                        <h1 className="text-indigo9 font-bold text-xl  md:font-black md:text-6xl text-center mx-auto max-w-56 md:max-w-full lg:text-start">
+                        <h1 className="text-indigo9 font-bold text-xl  md:font-black md:text-[56px] leading-[64px] text-center mx-auto max-w-56 md:max-w-full lg:text-start">
                             Procurando alguém para desenvolver sua aplicação WEB?
                         </h1>
 
-                        <p className="text-gray-600 font-medium text-center text-base mt-6 mx-auto max-w-64 md:max-w-full md:text-2xl lg:text-start">Desenvolvemos e projetamos 100% da sua aplicação WEB, desde o design até a hospedagem de seu projeto.</p>
+                        <p className="text-gray6 font-medium text-center text-base mt-6 mx-auto max-w-64 md:max-w-full md:text-2xl lg:text-start">Desenvolvemos e projetamos 100% da sua aplicação WEB, desde o design até a hospedagem de seu projeto.</p>
                     </div>
 
                     <div className="mt-6 md:mt-12 text-center lg:text-start">
