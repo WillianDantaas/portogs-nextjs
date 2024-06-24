@@ -92,7 +92,7 @@ export default function Section02() {
                 </div>
 
                 <div className="container mx-auto text-center mt-6 md:mt-12">
-                    <Button text="Orçamento rápido" link={'#'}></Button>
+                    <Button text="Orçamento rápido" target={'_blank'} link={'https://wa.me/5519996811960/?text=Gostaria de realizar um orçamento, poderia me ajudar?'}></Button>
                 </div>
             </section>
 

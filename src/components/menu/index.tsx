@@ -67,7 +67,7 @@ export function NavBar() {
                         {/* <a href="#" className='text-indigo9 font-semibold'>Modelos de sites</a> */}
 
                         <div className='w-40 h-12 flex items-center'>
-                            <Button2 text={'Orçamento'} link={'https://wa.me/19996811960/'} />
+                            <Button2 text={'Orçamento'} target={'_blank'} link={'https://wa.me/5519996811960/?text=Gostaria de realizar um orçamento, poderia me ajudar?'} />
                         </div>
                     </div>
                 </div>

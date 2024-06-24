@@ -22,7 +22,7 @@ export default function Section01() {
                     </div>
 
                     <div className="mt-6 md:mt-12 text-center lg:text-start">
-                        <Button text="Conhecer Ofertas" link={'#'}></Button>
+                        <Button text="Conhecer Ofertas" target={'_blank'} link={'https://wa.me/5519996811960/?text=Gostaria de realizar um orçamento, poderia em ajudar?'}></Button>
                     </div>
                 </div>
 
