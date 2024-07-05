@@ -14,7 +14,7 @@ export default function Section01() {
 
                     <div className="mt-[90px] md:w-[592px] lg:w-[652px] lg:h-[389px]">
 
-                        <h1 className="text-indigo9 font-bold text-xl  md:font-black md:text-[56px] leading-[64px] text-center mx-auto max-w-56 md:max-w-full lg:text-start">
+                        <h1 className="text-indigo9 font-bold text-xl  md:font-black md:text-[56px] md:leading-[64px] text-center mx-auto max-w-56 md:max-w-full lg:text-start">
                             Procurando alguém para desenvolver sua aplicação WEB?
                         </h1>
 
